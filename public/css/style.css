@@ -14,9 +14,9 @@
     background-image: none;
   }
   .navbar-header {
-    min-height: 100px;
+    min-height: 85px;
     padding-left: 88px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
   .navbar-default .navbar-nav > li > a {
     color: #0088cc;
@@ -30,7 +30,7 @@
   .main-title {
     color: #000000 !important;
     min-height: 60px;
-    font-size: 50px;
+    font-size: 42px;
     line-height: 60px;
     font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman,
       serif;
@@ -157,7 +157,7 @@
     height: 13px;
     border-color: #000000;  
     margin-top: 19px;
-    left: 20px;
+    margin-right: 10px;
     background: transparent url(../images/user.jpg) no-repeat left top;
   }
   #u1893{
@@ -174,12 +174,13 @@
   #u1872,
   #u1873,
   #u1874 {
-    width: 268px;
+    width: 220px;
     border-width: 1px;
     border-style: solid;
     border-color: #cdcdcd;
     background-color: #f4f4f4;
     padding-bottom: 13px;
+    padding-left: 28px;
   }
   #pu1884-4,
   #pu1885-4,
@@ -231,7 +232,7 @@
     color: #555555;
   }
   .container-fluid {
-    padding-top: 70px;
+    padding-top: 50px;
   }
 
   .navbar-nav li a:hover {
@@ -293,11 +294,12 @@
   }
 
   .bar {
+    width: 475px;
     background-color: #eee;
     padding: 2px;
-    border-radius: 15px;
-    margin-bottom: 5px;
-    font-size: 14px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-size: 13px;
     color: #fff;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -345,9 +347,10 @@
   }
   .skill-buttons h2 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 26px;
     font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman,
-      serif;
+ serif;
+    margin-bottom: 25px;
   }
 
   /* Education  */

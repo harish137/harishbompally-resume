@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {} */
   body {
     background-color: #ffffff;
     font-family: "Courier New", Courier, monospace;
@@ -17,6 +17,7 @@
     min-height: 100px;
     padding-left: 88px;
     margin-top: 10px;
+    width: 100%;
   }
   .navbar-default .navbar-nav > li > a {
     color: #0088cc;
@@ -78,6 +79,7 @@
   }
   .navbar-header-onscroll {
         margin-top: 0px;
+        width: 50%;
   }
   /* onscroll fixed menu end */
   #workdetail {
@@ -243,7 +245,6 @@
   }
 
   .navbar-right {
-    float: left;
     margin-left: 30px;
   }
   div#myskills .skill-buttons {
@@ -475,6 +476,4 @@ a.github-icon {
 }
 #workdetail .clearfixs {
   margin-bottom: 20px;
-}
-
 }
